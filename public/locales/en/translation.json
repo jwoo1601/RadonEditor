@@ -1,0 +1,20 @@
+{
+    "locale": "en",
+    "dialect": "CA",
+    "name": "English (Canada)",
+
+    "startup": {
+        "load": "Loading"
+    },
+
+    "menu": {
+        "file": "File",
+        "edit": "Edit",
+        "view": "View",
+        "help": "Help"
+    },
+
+    "placeholder":{
+        "title": "Untitled"
+    }
+}

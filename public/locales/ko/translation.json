@@ -1,0 +1,20 @@
+{
+    "locale": "ko",
+    "dialect": "KR",
+    "name": "한국어",
+
+    "startup": {
+        "load": "로딩 중"
+    },
+
+    "menu": {
+        "file": "파일",
+        "edit": "편집",
+        "view": "보기",
+        "help": "정보"
+    },
+
+    "placeholder":{
+        "title": "무제"
+    }
+}

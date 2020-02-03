@@ -1,0 +1,74 @@
+{
+  "name": "radon-editor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "@types/chai": "^4.2.7",
+    "@types/reach__router": "^1.2.6",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-redux": "^7.1.6",
+    "chai": "^4.2.0",
+    "electron-util": "^0.12.3",
+    "eslint": "^5.16.0",
+    "i18next": "^19.0.3",
+    "i18next-browser-languagedetector": "^4.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "memoize-one": "^5.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-i18next": "^11.3.1",
+    "react-redux": "^7.1.3",
+    "react-scripts": "^3.3.0",
+    "readline": "^1.3.0",
+    "redux": "^4.0.5",
+    "typescript": "^3.7.5"
+  },
+  "main": "build/startup.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "babel": "babel src --out-dir build --extensions \".js,.jsx,.ts,.tsx\"",
+    "check-types": "tsc",
+    "sass": "sass --watch src/style:src/components/style"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
+    "@babel/plugin-transform-typescript": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "electron": "^6.1.7",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "redux-devtools": "^3.5.0"
+  }
+}
